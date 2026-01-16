@@ -1,0 +1,14 @@
+torch
+torchvision
+transformers
+pillow
+pandas
+numpy
+scikit-learn
+tqdm
+rouge-score
+nltk
+opencv-python
+ 
+
+
