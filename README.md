@@ -3,16 +3,16 @@
 [![Framework](https://img.shields.io/badge/PyTorch-2.0-orange)](https://pytorch.org/)
 [![Model](https://img.shields.io/badge/Model-BLIP%20%2B%20T5-green)](https://huggingface.co/Salesforce/blip-vqa-base)
 
-[cite_start]This repository contains the implementation of the research paper **"Improved interactivity and automated response for visual question answering"**[cite: 296]  [![Link Paper](https://img.shields.io/badge/Paper-PDF-red)](./VQA_Research_Paper.pdf)
+This repository contains the implementation of the research paper **"Improved interactivity and automated response for visual question answering"**  [![Link Paper](https://img.shields.io/badge/Paper-PDF-red)](./VQA_Research_Paper.pdf)
 
 The project proposes a two-stage VQA framework:
-1.  [cite_start]**Question Generation:** Using **T5TP3** to automatically generate diverse questions from image captions[cite: 316].
-2.  [cite_start]**Visual Question Answering:** Fine-tuning the **BLIP** model with **Prompt Engineering** to generate descriptive, context-aware answers[cite: 316, 504].
+1.  **Question Generation:** Using **T5TP3** to automatically generate diverse questions from image captions[cite: 316].
+2.  **Visual Question Answering:** Fine-tuning the **BLIP** model with **Prompt Engineering** to generate descriptive, context-aware answers.
 
 ## 🏗️ System Architecture
 
 ![Architecture](assets/architecture.png.jpg)
-*Figure 1: Overview of the proposed model architecture[cite: 424].*
+*Figure 1: Overview of the proposed model architecture.*
 
 The system processes data through the following pipeline:
 1.  **Input:** Images and Captions from the Flickr8k dataset.
